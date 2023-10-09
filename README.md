@@ -1,5 +1,5 @@
 # ClearURLs-custom-rules
-ClearURLs-custom-rules bases on [the official ClearURLs Rules](https://github.com/ClearURLs/Rules) and add some additional rules.
+ClearURLs-custom-rules bases on [the official ClearURLs Rules](https://github.com/ClearURLs/Rules) and add some additional rules for MYSELF.
 
 ## ClearURLs breaks Google OAuth/3rd party apps login?
 1. disable this <img src="https://github.com/Kristol-Ice/ClearURLs-custom-rules/assets/134151822/9f9a822b-ae7d-4702-9f5e-a231caf65ca8" height="50x">
