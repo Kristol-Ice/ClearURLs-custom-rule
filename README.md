@@ -1,5 +1,5 @@
 # ClearURLs-custom-rules
-ClearURLs-custom-rules bases on [the official ClearURLs Rules]([https://github.com/ClearURLs/Rules](https://rules2.clearurls.xyz/data.minify.json)) and add some additional rules for MYSELF.
+ClearURLs-custom-rules bases on [the official ClearURLs Rules](https://rules2.clearurls.xyz/data.minify.json) and add some additional rules for MYSELF.
 
 ## Additional rules
 - shopee.(com|co.th)
