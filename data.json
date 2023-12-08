@@ -341,7 +341,8 @@
                 "action_history",
                 "tracking",
                 "referral_code",
-                "referral_story_type"
+                "referral_story_type",
+                "s"
             ],
             "exceptions": [
                 "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?facebook\\.com\\/.*?(plugins|ajax)\\/",
