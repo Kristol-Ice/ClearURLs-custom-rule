@@ -3,6 +3,8 @@ ClearURLs-custom-rules bases on [the official ClearURLs Rules](https://rules2.cl
 
 ## Additional rules
 - shopee.(com|co.th)
+- lazada.(com|co.th)
+- twitter.com "s" param in facebook.com redirect link
 
 ## ClearURLs breaks Google OAuth/3rd party apps login?
 1. disable this <img src="https://github.com/Kristol-Ice/ClearURLs-custom-rules/assets/134151822/9f9a822b-ae7d-4702-9f5e-a231caf65ca8" height="50x">
