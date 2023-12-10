@@ -12,12 +12,12 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 เตือนใจตัวเอง: ระวัง hash ต้องเป็นตัวเล็กทั้งหมด
 
 ### Additional rules
-- shopee.(com|co.th)
-- lazada.(com|co.th)
+- shopee.(com|co.th) param
+- lazada.(com|co.th) param
 - twitter.com "s" param in facebook.com redirect link
 - facebook.com "eav" param
-- pantip.com (https://pantip.com/topic/________#lead:related:______________________:_:https://pantip.com/topic/________)
-- discordapp.net/attachments
+- pantip.com (#lead param)
+- discordapp.net/attachments param
 
 ## ClearURLs breaks Google OAuth/3rd party apps login?
 1. disable this <img src="https://github.com/Kristol-Ice/ClearURLs-custom-rules/assets/134151822/9f9a822b-ae7d-4702-9f5e-a231caf65ca8" height="50x">
