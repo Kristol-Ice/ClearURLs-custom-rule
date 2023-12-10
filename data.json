@@ -1836,7 +1836,7 @@
             ]
         },
         "pantip": {
-            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?lazada\\.(com|co\\.th)",
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pantip\\.com",
             "rawRules": [
                 "#lead:(.*)"
             ]
