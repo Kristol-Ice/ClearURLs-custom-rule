@@ -353,7 +353,7 @@
                 "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?facebook\\.com\\/photo\\/download\\/"
             ],
             "redirections": [
-                "^https?:\\/\\/l[a-z]?\\.facebook\\.com/l\\.php\\?.*?u=(https?%3A%2F%2F.*?(%3F))"
+                "^https?:\\/\\/l[a-z]?\\.facebook\\.com/l\\.php\\?.*?u=(https?%3A%2F%2F.*(%3F))"
             ]
         },
         "twitter": {
