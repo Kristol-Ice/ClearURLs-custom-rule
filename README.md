@@ -1,5 +1,5 @@
 # ClearURLs-custom-rule
-ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additional rules for MYSELF. There might be some mistakes in this rule.
+ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additional rules for MYSELF. There might be some mistakes or rules that break functionalities of the website. So that why I didn't not pull request to the official.
 
 <details>
     <summary>the official ClearURLs Rules URL</summary>
