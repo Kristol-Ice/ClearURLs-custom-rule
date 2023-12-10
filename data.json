@@ -1841,7 +1841,7 @@
                 "#lead.*"
             ]
         },
-        "discordapp.net/attachments": {
+        "discordapp": {
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?discordapp\\.net",
             "rules": [
                 "ex",
