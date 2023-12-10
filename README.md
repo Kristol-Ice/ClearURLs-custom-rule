@@ -14,8 +14,7 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 ### Additional rules
 - shopee.(com|co.th)
 - lazada.(com|co.th)
-- twitter.com "s" param in facebook.com redirect link
-- facebook.com "eav" param
+- facebook.com "eav" param and any param in redirect link form facebook
 - pantip.com (https://pantip.com/topic/________#lead:related:______________________:_:https://pantip.com/topic/________)
 - discordapp.net/attachments
 
