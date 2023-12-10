@@ -1834,6 +1834,12 @@
                 "regional_key",
                 "one_id"
             ]
+        },
+        "pantip": {
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?lazada\\.(com|co\\.th)",
+            "rawRules": [
+                "#lead:*"
+            ]
         }
     }
 }
