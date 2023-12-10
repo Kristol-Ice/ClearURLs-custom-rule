@@ -1842,7 +1842,7 @@
             ]
         },
         "discordapp": {
-            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?discordapp\\.net",
+            "urlPattern": "^https?:\\/\\/.*discordapp\\.net",
             "rules": [
                 "ex",
                 "is",
