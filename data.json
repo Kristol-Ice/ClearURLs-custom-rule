@@ -1840,6 +1840,14 @@
             "rawRules": [
                 "#lead.*"
             ]
+        },
+        "discordapp.net/attachments": {
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?discordapp\\.net",
+            "rules": [
+                "ex",
+                "is",
+                "hm"
+            ]
         }
     }
 }
