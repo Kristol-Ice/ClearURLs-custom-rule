@@ -342,7 +342,9 @@
                 "tracking",
                 "referral_code",
                 "referral_story_type",
-                "eav"
+                "eav",
+                "set",
+                "idorvanity"
             ],
             "exceptions": [
                 "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?facebook\\.com\\/.*?(plugins|ajax)\\/",
