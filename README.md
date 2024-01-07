@@ -9,6 +9,7 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 ## ClearURLs-custom-rule url
 - data.json: https://raw.githubusercontent.com/Kristol-Ice/ClearURLs-custom-rule/main/data.json
 - rules.hash: https://raw.githubusercontent.com/Kristol-Ice/ClearURLs-custom-rule/main/rules.hash
+
 เตือนใจตัวเอง: ระวัง hash ต้องเป็นตัวเล็กทั้งหมด
 
 ### Additional rules
