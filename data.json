@@ -343,7 +343,6 @@
                 "referral_code",
                 "referral_story_type",
                 "eav",
-                "set",
                 "idorvanity"
             ],
             "exceptions": [
