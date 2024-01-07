@@ -343,7 +343,12 @@
                 "referral_code",
                 "referral_story_type",
                 "eav",
-                "idorvanity"
+                "sfnsn",
+                "idorvanity",
+                "wtsid",
+                "rdc",
+                "rdr",
+                "paipv"
             ],
             "exceptions": [
                 "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?facebook\\.com\\/.*?(plugins|ajax)\\/",
