@@ -222,7 +222,8 @@
                 "(?:%3F)?vero_conv",
                 "(?:%3F)?vero_id",
                 "(?:%3F)?wickedid",
-                "(?:%3F)?twclid"
+                "(?:%3F)?twclid",
+                "(?:%3F)?__cf_chl_tk"
             ],
             "referralMarketing": [
                 "(?:%3F)?ref_?",
