@@ -13,11 +13,20 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 เตือนใจตัวเอง: ระวัง hash ต้องเป็นตัวเล็กทั้งหมด
 
 ### Additional rules
-- shopee.(com|co.th) param
-- lazada.(com|co.th) param
-- facebook.com "eav", "sfnsn", "idorvanity", "wtsid", "rdc", "rdr", "paipv" param
-- pantip.com param
-- discordapp.net/attachments param
+"eav",
+"sfnsn",
+"idorvanity",
+"wtsid",
+"rdc",
+"rdr",
+"paipv",
+"mibextid"
+"igsh"
+"shopee" site
+"lazada.com" site
+"pantip" site
+"discordapp" site
+"msn" site
 
 ## ClearURLs breaks Google OAuth/3rd party apps login?
 1. disable this <img src="https://github.com/Kristol-Ice/ClearURLs-custom-rules/assets/134151822/9f9a822b-ae7d-4702-9f5e-a231caf65ca8" height="50x">
