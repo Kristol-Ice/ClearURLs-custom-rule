@@ -1,16 +1,9 @@
 # ClearURLs-custom-rule
 ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additional rules for MYSELF. There might be some mistakes or rules that break functionalities of the website. So that why I didn't not pull request to the official.
 
-<details>
-    <summary>the official ClearURLs Rules URL</summary>
-    https://rules2.clearurls.xyz/data.minify.json or https://gitlab.com/ClearURLs/rules/-/blob/master/data.min.json
-</details>
-
 ## ClearURLs-custom-rule url
 - data.json: https://raw.githubusercontent.com/Kristol-Ice/ClearURLs-custom-rule/main/data.json
 - rules.hash: https://raw.githubusercontent.com/Kristol-Ice/ClearURLs-custom-rule/main/rules.hash
-
-เตือนใจตัวเอง: ระวัง hash ต้องเป็นตัวเล็กทั้งหมด
 
 ### Additional rules
 `"eav"`
@@ -40,3 +33,12 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 **ClearURLs** is an add-on based on the new WebExtensions technology and is optimized for *Firefox* and *Chrome* based browsers.
 
 [ClearURLs extension's Github link](https://github.com/ClearURLs/Addon)
+
+<details>
+    <summary>the official ClearURLs Rules URL</summary>
+    https://rules2.clearurls.xyz/data.minify.json or https://gitlab.com/ClearURLs/rules/-/blob/master/data.min.json
+</details>
+<details>
+    <summary>the official ClearURLs Rules Repository</summary>
+    https://github.com/ClearURLs/Rules or https://gitlab.com/ClearURLs/rules
+</details>
