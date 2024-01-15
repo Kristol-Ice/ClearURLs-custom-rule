@@ -1,3 +1,5 @@
 ClearURLs-custom-rule.code-workspace
 push.py
 hash.py
+data raw.json
+process.py

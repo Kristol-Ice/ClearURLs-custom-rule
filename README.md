@@ -15,8 +15,8 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 ### Additional rules
 - shopee.(com|co.th) param
 - lazada.(com|co.th) param
-- facebook.com "eav" param and any param in redirect link form facebook
-- pantip.com (#lead param)
+- facebook.com "eav", "sfnsn", "idorvanity", "wtsid", "rdc", "rdr", "paipv" param
+- pantip.com param
 - discordapp.net/attachments param
 
 ## ClearURLs breaks Google OAuth/3rd party apps login?
