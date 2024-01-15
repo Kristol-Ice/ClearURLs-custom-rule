@@ -13,21 +13,21 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 เตือนใจตัวเอง: ระวัง hash ต้องเป็นตัวเล็กทั้งหมด
 
 ### Additional rules
-"eav",
-"sfnsn",
-"idorvanity",
-"wtsid",
-"rdc",
-"rdr",
-"paipv",
-"mibextid"
-"igsh"
-"shopee" site
-"lazada.com" site
-"pantip" site
-"discordapp" site
-"msn" site
-
+`"eav",
+``"sfnsn",
+``"idorvanity",
+``"wtsid",
+``"rdc",
+``"rdr",
+``"paipv",
+``"mibextid"
+``"igsh"
+``"shopee" site
+``"lazada.com" site
+``"pantip" site
+``"discordapp" site
+``"msn" site
+`
 ## ClearURLs breaks Google OAuth/3rd party apps login?
 1. disable this <img src="https://github.com/Kristol-Ice/ClearURLs-custom-rules/assets/134151822/9f9a822b-ae7d-4702-9f5e-a231caf65ca8" height="50x">
 2. NEED to click <img src="https://github.com/Kristol-Ice/ClearURLs-custom-rules/assets/134151822/e08e0f4c-017a-42e5-9abb-8ea2c553466e" height="50px"> too.
