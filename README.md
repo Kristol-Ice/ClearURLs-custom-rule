@@ -1,6 +1,3 @@
-$${\color{red} No \space more \space maintain}$$
-เพราะ ClearURLs บน Firefox Android ไม่สามารถเปลี่ยนที่อยู่ของ data.json เป็นอย่างอื่นได้ ถ้ามีการเปลี่ยนแปลง rule ผมจะเปิด pull request ที่ [offical rule repository](https://gitlab.com/ClearURLs/rules) โดยตรงแทน
-
 # ClearURLs-custom-rule
 ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additional rules for MYSELF. There might be some mistakes or rules that break functionalities of the website. So that why I didn't not pull request to the official.
 
