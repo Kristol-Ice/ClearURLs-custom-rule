@@ -13,6 +13,8 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 `"rdc"`
 `"rdr"`
 `"paipv"`
+`"_nc_x"`
+`"_rdr"`
 `"mibextid"`
 `"shopee" site`
 `"lazada" site`
@@ -23,7 +25,7 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 1. disable this <img src="https://github.com/Kristol-Ice/ClearURLs-custom-rules/assets/134151822/9f9a822b-ae7d-4702-9f5e-a231caf65ca8" height="50x">
 2. NEED to click <img src="https://github.com/Kristol-Ice/ClearURLs-custom-rules/assets/134151822/e08e0f4c-017a-42e5-9abb-8ea2c553466e" height="50px"> too.
 
-*Disable "Prevent tracking injection over history API" may reduce performance of this extension.
+*Disable "Prevent tracking injection over history API" may reduce full ability of this extension.
 
 ---
 
