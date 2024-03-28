@@ -3087,7 +3087,19 @@
             "rawRules": [],
             "exceptions": [],
             "redirections": [
-                "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?invol\\.co\\/.*&url=(https?[^&]+)"
+                "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?invol\\.co\\/.*&url=(https?[^&]*)"
+            ],
+            "forceRedirection": false
+        },
+        "addons.mozilla.org": { 
+            "urlPattern": "^https?:\\/\\/prod\\.outgoing\\.prod\\.webservices\\.mozgcp\\.net",
+            "completeProvider": false,
+            "rules": [],
+            "referralMarketing": [],
+            "rawRules": [],
+            "exceptions": [],
+            "redirections": [
+                "^https?:\\/\\/prod\\.outgoing\\.prod\\.webservices\\.mozgcp\\.net.*(https?[^&]*)"
             ],
             "forceRedirection": false
         }
