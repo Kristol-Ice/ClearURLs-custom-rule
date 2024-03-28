@@ -3042,7 +3042,7 @@
             "forceRedirection": false
         },
         "discordapp.net": { 
-            "urlPattern": "^https?:\\/\\/.*discordapp\\.net",
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?discordapp\\.net",
             "completeProvider": false,
             "rules": [
                 "ex",
@@ -3053,6 +3053,18 @@
             "rawRules": [],
             "exceptions": [],
             "redirections": [],
+            "forceRedirection": false
+        },
+        "click.redditmail.com": { 
+            "urlPattern": "^https?:\\/\\/click\\.redditmail.com\\.net",
+            "completeProvider": false,
+            "rules": [],
+            "referralMarketing": [],
+            "rawRules": [],
+            "exceptions": [],
+            "redirections": [
+                "^https?:\\/\\/click\\.redditmail\\.com\\/CL0\\/(https?%3A%2F%2F[^&]*)"
+            ],
             "forceRedirection": false
         }
     }

@@ -20,6 +20,7 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 `"lazada" site`
 `"pantip.com" site`
 `"discordapp.net" site`
+`"click.redditmail.com" site`
 
 ## ClearURLs breaks Google OAuth/3rd party apps login?
 1. disable this <img src="https://github.com/Kristol-Ice/ClearURLs-custom-rules/assets/134151822/9f9a822b-ae7d-4702-9f5e-a231caf65ca8" height="50x">
