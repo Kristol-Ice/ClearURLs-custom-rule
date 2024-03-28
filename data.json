@@ -3014,6 +3014,9 @@
                 "from",
                 "item_id",
                 "priceCompare",
+                "params",
+                "src",
+                "q",
                 "scm"
             ],
             "referralMarketing": [],
