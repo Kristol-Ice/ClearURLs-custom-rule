@@ -35,7 +35,9 @@
                 "camp",
                 "creative",
                 "s",
-                "content-id"
+                "content-id",
+                "dib",
+                "dib_tag"
             ],
             "referralMarketing": [
                 "tag",
@@ -48,6 +50,19 @@
             "rawRules": [
                 "\\/ref=[^/?]*"
             ],
+            "redirections": [],
+            "forceRedirection": false
+        },
+        "msn": {
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?msn\\.com",
+            "completeProvider": false,
+            "rules": [
+                "cvid",
+                "ocid"
+            ],
+            "rawRules": [],
+            "referralMarketing": [],
+            "exceptions": [],
             "redirections": [],
             "forceRedirection": false
         },
@@ -150,6 +165,8 @@
             "rawRules": [],
             "exceptions": [
                 "^https?:\\/\\/mail\\.google\\.com\\/mail\\/u\\/",
+                "^https?:\\/\\/accounts\\.google\\.com\\/o\\/oauth2\\/",
+                "^https?:\\/\\/accounts\\.google\\.com\\/signin\\/oauth\\/",
                 "^https?:\\/\\/(?:docs|accounts)\\.google(?:\\.[a-z]{2,}){1,}",
                 "^https?:\\/\\/([a-z0-9-\\.])*(chat|drive)\\.google\\.com\\/videoplayback",
                 "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?google(?:\\.[a-z]{2,}){1,}(?:\\/upload)?\\/drive\\/",
@@ -262,8 +279,7 @@
                 "(?:%3F)?vero_conv",
                 "(?:%3F)?vero_id",
                 "(?:%3F)?wickedid",
-                "(?:%3F)?twclid",
-                "(?:%3F)?__cf_chl_tk"
+                "(?:%3F)?twclid"
             ],
             "referralMarketing": [
                 "(?:%3F)?ref_?",
@@ -274,6 +290,7 @@
                 "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?matrix\\.org\\/_matrix\\/",
                 "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?(?:cloudflare\\.com|prismic\\.io|tangerine\\.ca|gitlab\\.com)",
                 "^https?:\\/\\/myaccount.google(?:\\.[a-z]{2,}){1,}",
+                "^https?:\\/\\/accounts.google(?:\\.[a-z]{2,}){1,}",
                 "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?gcsip\\.(?:com|nl)[^?]*\\?.*?&?ref_?=.",
                 "^https?:\\/\\/[^/]+/[^/]+/[^/]+\\/-\\/refs\\/switch[^?]*\\?.*?&?ref_?=.",
                 "^https?:\\/\\/bugtracker\\.[^/]*\\/[^?]+\\?.*?&?ref_?=[^/?&]*",
@@ -312,7 +329,7 @@
                 "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?github\\.com",
                 "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?billiger\\.de\\/.*?mc=",
                 "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?\\.youtrack\\.cloud",
-                "^https?:\\/\\cu\\.bankid\\.com"
+                "^https?:\\/\\/cu\\.bankid\\.com"
             ],
             "redirections": [],
             "forceRedirection": false
@@ -469,6 +486,24 @@
             "rawRules": [],
             "exceptions": [
                 "^https?:\\/\\/twitter.com\\/i\\/redirect"
+            ],
+            "redirections": [],
+            "forceRedirection": false
+        },
+        "x": {
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?x.com",
+            "completeProvider": false,
+            "rules": [
+                "(?:ref_?)?src",
+                "s",
+                "cn",
+                "ref_url",
+                "t"
+            ],
+            "referralMarketing": [],
+            "rawRules": [],
+            "exceptions": [
+                "^https?:\\/\\/x.com\\/i\\/redirect"
             ],
             "redirections": [],
             "forceRedirection": false
@@ -2902,16 +2937,76 @@
             ],
             "forceRedirection": false
         },
-        "shopee": {
+        "cc.loginfra.com": {
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?loginfra\\.com",
+            "completeProvider": false,
+            "rules": [],
+            "referralMarketing": [],
+            "rawRules": [],
+            "exceptions": [],
+            "redirections": [
+                "^https?:\\/\\/cc\\.loginfra\\.com\\/.*?u=([^&]+)"
+            ],
+            "forceRedirection": false
+        },
+        "t.umblr.com": {
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?umblr\\.com",
+            "completeProvider": false,
+            "rules": [],
+            "referralMarketing": [],
+            "rawRules": [],
+            "exceptions": [],
+            "redirections": [
+                "^https?:\\/\\/t\\.umblr\\.com\\/redirect\\?z=([^&]+)"
+            ],
+            "forceRedirection": false
+        },
+        "goodreads.com": {
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?goodreads\\.com",
+            "completeProvider": false,
+            "rules": [
+                "from_search",
+                "from_srp",
+                "qid",
+                "rank",
+                "ac"
+            ],
+            "referralMarketing": [],
+            "rawRules": [],
+            "exceptions": [],
+            "redirections": [],
+            "forceRedirection": false
+        },
+        "sohu": {
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?sohu\\.com",
+            "completeProvider": false,
+            "rules": [
+                "pvid",
+                "scm"
+            ],
+            "referralMarketing": [],
+            "rawRules": [],
+            "exceptions": [],
+            "redirections": [],
+            "forceRedirection": false
+        },
+        "shopee": { 
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?shopee\\.(com|co\\.th)",
+            "completeProvider": false,
             "rules": [
                 "publish_id",
                 "sp_atk",
                 "xptdk"
-            ]
+            ],
+            "referralMarketing": [],
+            "rawRules": [],
+            "exceptions": [],
+            "redirections": [],
+            "forceRedirection": false
         },
-        "lazada.com": {
+        "lazada": { 
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?lazada\\.(com|co\\.th)",
+            "completeProvider": false,
             "rules": [
                 "pvid",
                 "impsrc",
@@ -2942,31 +3037,35 @@
                 "crowd_id",
                 "regional_key",
                 "one_id"
-            ]
+            ],
+            "referralMarketing": [],
+            "rawRules": [],
+            "exceptions": [],
+            "redirections": [],
+            "forceRedirection": false
         },
-        "pantip": {
+        "pantip.com": { 
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pantip\\.com",
+            "completeProvider": false,
+            "rules": [],
             "rawRules": [
                 "#lead.*"
-            ]
+            ],
+            "referralMarketing": [],
+            "exceptions": [],
+            "redirections": [],
+            "forceRedirection": false
         },
-        "discordapp": {
+        "discordapp.net": { 
             "urlPattern": "^https?:\\/\\/.*discordapp\\.net",
+            "completeProvider": false,
             "rules": [
                 "ex",
                 "is",
                 "hm"
-            ]
-        },
-        "msn": {
-            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?msn\\.com",
-            "completeProvider": false,
-            "rules": [
-                "cvid",
-                "ocid"
             ],
-            "rawRules": [],
             "referralMarketing": [],
+            "rawRules": [],
             "exceptions": [],
             "redirections": [],
             "forceRedirection": false
