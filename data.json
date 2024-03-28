@@ -3013,6 +3013,7 @@
                 "up_id",
                 "from",
                 "item_id",
+                "priceCompare",
                 "scm"
             ],
             "referralMarketing": [],
