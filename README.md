@@ -6,6 +6,7 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 - rules.hash: https://raw.githubusercontent.com/Kristol-Ice/ClearURLs-custom-rule/main/rules.hash
 
 ### Additional rules
+`"pp" ,`
 `"eav"`
 `"sfnsn"`
 `"idorvanity"`
