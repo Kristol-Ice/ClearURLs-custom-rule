@@ -3014,6 +3014,7 @@
                 "from",
                 "item_id",
                 "priceCompare",
+                "pvid",
                 "params",
                 "src",
                 "q",
