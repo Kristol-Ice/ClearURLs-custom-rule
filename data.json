@@ -3074,8 +3074,20 @@
             "rawRules": [],
             "exceptions": [],
             "redirections": [
-                "^https?:\\/\\/click\\.redditmail\\.com\\/.*?url=([^&]*)",
+                "^https?:\\/\\/click\\.redditmail\\.com\\/.*\\?url=([^&]*)",
                 "^https?:\\/\\/click\\.redditmail\\.com\\/.*(https?:%2F%2F[^&]*)"
+            ],
+            "forceRedirection": false
+        },
+        "invol.co": { 
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?invol\\.co",
+            "completeProvider": false,
+            "rules": [],
+            "referralMarketing": [],
+            "rawRules": [],
+            "exceptions": [],
+            "redirections": [
+                "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?invol\\.co\\/.*&url=(https?[^&]+)"
             ],
             "forceRedirection": false
         }
