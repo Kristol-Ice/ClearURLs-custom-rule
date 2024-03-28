@@ -3057,14 +3057,14 @@
             "forceRedirection": false
         },
         "pixiv": { 
-            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pixiv\\.com",
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pixiv\\.net",
             "completeProvider": false,
             "rules": [],
             "referralMarketing": [],
             "rawRules": [],
             "exceptions": [],
             "redirections": [
-                "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pixiv\\.com\\/jump\\.php?(https?%3A%2F%2F[^&]*)"
+                "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pixiv\\.net\\/jump\\.php?(https?%3A%2F%2F[^&]*)"
             ],
             "forceRedirection": false
         }
