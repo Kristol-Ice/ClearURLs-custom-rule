@@ -3056,7 +3056,7 @@
             "forceRedirection": false
         },
         "click.redditmail.com": { 
-            "urlPattern": "^https?:\\/\\/click\\.redditmail.com\\.net",
+            "urlPattern": "^https?:\\/\\/click\\.redditmail\\.com\\.com",
             "completeProvider": false,
             "rules": [],
             "referralMarketing": [],
