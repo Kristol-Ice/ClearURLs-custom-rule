@@ -530,9 +530,7 @@
             "rawRules": [],
             "exceptions": [],
             "redirections": [
-                "^https?:\\/\\/out\\.reddit\\.com\\/.*?url=([^&]*)",
-                "^https?:\\/\\/click\\.redditmail\\.com\\/.*?url=([^&]*)",
-                "^https?:\\/\\/click\\.redditmail\\.com\\/.*(https?:%2F%2F[^&]*)" 
+                "^https?:\\/\\/out\\.reddit\\.com\\/.*?url=([^&]*)"
             ],
             "forceRedirection": false
         },
@@ -3065,6 +3063,19 @@
             "exceptions": [],
             "redirections": [
                 "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pixiv\\.net\\/jump\\.php?(https?%3A%2F%2F[^&]*)"
+            ],
+            "forceRedirection": false
+        },
+        "redditmail": { 
+            "urlPattern": "^https?:\\/\\/click\\.redditmail\\.com",
+            "completeProvider": false,
+            "rules": [],
+            "referralMarketing": [],
+            "rawRules": [],
+            "exceptions": [],
+            "redirections": [
+                "^https?:\\/\\/click\\.redditmail\\.com\\/.*?url=([^&]*)",
+                "^https?:\\/\\/click\\.redditmail\\.com\\/.*(https?:%2F%2F[^&]*)"
             ],
             "forceRedirection": false
         }
