@@ -3063,7 +3063,7 @@
             "rawRules": [],
             "exceptions": [],
             "redirections": [
-                "^https?:\\/\\/click\\.redditmail\\.com\\/CL0\\/(https?:%2F%2F[^&])"
+                "^https?:\\/\\/click\\.redditmail\\.com\\/CL0\\/(https?:%2F%2F[^&]*)"
             ],
             "forceRedirection": false
         }
