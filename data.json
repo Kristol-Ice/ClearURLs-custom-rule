@@ -532,7 +532,7 @@
             "redirections": [
                 "^https?:\\/\\/out\\.reddit\\.com\\/.*?url=([^&]*)",
                 "^https?:\\/\\/click\\.redditmail\\.com\\/.*?url=([^&]*)",
-                "^https?:\\/\\/click\\.redditmail\\.com\\/[A-Za-z0-9]{3}\\/(https?:%2F%2F[^&]*)" 
+                "^https?:\\/\\/click\\.redditmail\\.com\\/.*(https?:%2F%2F[^&]*)" 
             ],
             "forceRedirection": false
         },

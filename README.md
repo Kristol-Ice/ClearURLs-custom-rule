@@ -16,7 +16,7 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 `"_nc_x"`
 `"_rdr"`
 `"mibextid"`
-`"^https?:\\/\\/click\\.redditmail\\.com\\/[A-Za-z0-9]{3}\\/(https?:%2F%2F[^&]*)"`
+`"^https?:\\/\\/click\\.redditmail\\.com\\/.*(https?:%2F%2F[^&]*)"`
 `"shopee" site`
 `"lazada" site`
 `"pantip.com" site`
