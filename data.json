@@ -3054,7 +3054,7 @@
             "redirections": [],
             "forceRedirection": false
         },
-        "pixiv": { 
+        "pixiv.net": { 
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pixiv\\.net",
             "completeProvider": false,
             "rules": [],
@@ -3062,11 +3062,11 @@
             "rawRules": [],
             "exceptions": [],
             "redirections": [
-                "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pixiv\\.net\\/jump\\.php?(https?%3A%2F%2F[^&]*)"
+                "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pixiv\\.net\\/jump\\.php\\?(https?%3A%2F%2F[^&]*)"
             ],
             "forceRedirection": false
         },
-        "redditmail": { 
+        "redditmail.com": { 
             "urlPattern": "^https?:\\/\\/click\\.redditmail\\.com",
             "completeProvider": false,
             "rules": [],
