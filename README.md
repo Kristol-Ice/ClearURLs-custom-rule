@@ -8,25 +8,25 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 ### Additional rules
 "pp" , //added
 
-"eav" //added
+"eav" //added url
 
-"sfnsn" //added
+"sfnsn" //added url
 
-"idorvanity" //added
+"idorvanity" //added url
 
-"wtsid" //added
+"wtsid" //added url
 
-"rdc" //added
+"rdc" //added url
 
-"rdr" //added
+"rdr" //added url
 
-"paipv" //added
+"paipv" //added url
 
-"_nc_x" //added
+"_nc_x" //added url
 
-"_rdr" //added
+"_rdr" //added url
 
-"mibextid" //added
+"mibextid" //m.facebook.com when share tracking
 
 "shopee" site //added
 
@@ -47,8 +47,6 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 "pvid" // doesn't need (link of another item from item info page/link item from home page)
 
 "ad_src" // as the name says use for tracking 100% (link of another item from item info page) and doesn't need
-
-"spm" //maybe use for tracking (link from home,seach, item info page to some campaign / search url) and doesn't need
 
 "src" //use for tracking (link item from home page only) and doesn't need | Example: src=hp_categories
 
