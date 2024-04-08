@@ -3018,7 +3018,7 @@
                 "spm", //maybe use for tracking (link from home,seach, item info page to some campaign / search url) and doesn't need
                 "src", //use for tracking (link item from home page only) and doesn't need | Example: src=hp_categories
                 "from", //use for tracking (link item from search result page / home page) and doesn't need | Example: from=hp_officialstore
-                "scm", //doesn't need (link item from home page/some in search result page) and 
+                "scm", //doesn't need (link item from home page/some in search result page)
                 "pa", //use for tracking (link of another item from item info page) and doesn't need | Example: pa=sponsored_bottom
                 "pid_pvid", // (link of another item from item info page/link item from home page) and doesn't need
                 "cid", // doesn't need (link of another item from item info page)
