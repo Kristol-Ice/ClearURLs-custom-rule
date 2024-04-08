@@ -48,8 +48,6 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 
 "src" //use for tracking (link item from home page only) and doesn't need | Example: src=hp_categories
 
-"from" //use for tracking (link item from search result page / home page) and doesn't need | Example: from=hp_officialstore
-
 "scm" //doesn't need (link item from home page/some in search result page)
 
 "pa" //use for tracking (link of another item from item info page) and doesn't need | Example: pa=sponsored_bottom
