@@ -38,6 +38,8 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 
 "lazada" site //added
 
+"clickTrackInfo" //as the name says use for tracking 100%
+
 "up_id" // doesn't need (link of seller from home page)
 
 "abid" // doesn't need (link of seller from home page)
@@ -46,7 +48,11 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 
 "ad_src" // as the name says use for tracking 100% (link of another item from item info page) and doesn't need
 
+"spm" //maybe use for tracking (link from home,seach, item info page to some campaign / search url) and doesn't need
+
 "src" //use for tracking (link item from home page only) and doesn't need | Example: src=hp_categories
+
+"from" //use for tracking (link item from search result page / home page) and doesn't need | Example: from=hp_officialstore
 
 "scm" //doesn't need (link item from home page/some in search result page)
 
@@ -66,7 +72,7 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 
 "adgroup_id" // doesn't need (link of another item from item info page)
 
-"item_id" // doesn't need (link of seller from home page)
+// break suggest similar product "item_id" // doesn't need (link of seller from home page)
 
 "up_id" // doesn't need (link of seller from home page)
 

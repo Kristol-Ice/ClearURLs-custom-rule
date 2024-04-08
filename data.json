@@ -3010,11 +3010,14 @@
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?lazada\\.(com|co\\.th|co\\.id|com\\.my|com\\.ph|sg|vn)",
             "completeProvider": false,
             "rules": [
+                "clickTrackInfo",
                 "up_id",
                 "abid",
                 "pvid",
                 "ad_src",
+                "spm",
                 "src",
+                "from",
                 "scm",
                 "pa",
                 "pid_pvid",
@@ -3024,7 +3027,6 @@
                 "did",
                 "ncid",
                 "adgroup_id",
-                "item_id",
                 "up_id",
                 "search",
                 "pvtime"
