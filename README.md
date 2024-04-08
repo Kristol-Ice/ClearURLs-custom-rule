@@ -38,47 +38,49 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 
 "lazada" site //added
 
-"clickTrackInfo" //as the name says use for tracking 100%
+"clickTrackInfo" // as the name says use for tracking 100%
 
 "up_id" // doesn't need (link of seller from home page)
 
 "abid" // doesn't need (link of seller from home page)
 
-"pvid" // doesn't need (link of another item from item info page/link item from home page)
+"pvid" // doesn't need (link of another product from product info page/link product from home page)
 
-"ad_src" // as the name says use for tracking 100% (link of another item from item info page) and doesn't need
+"ad_src" // as the name says use for tracking 100% (link of another product from product info page) and doesn't need
 
-"spm" //maybe use for tracking (link from home,seach, item info page to some campaign / search url) and doesn't need
+"spm" //maybe use for tracking (link from home,seach, product info page to some campaign / search url) and doesn't need
 
-"src" //use for tracking (link item from home page only) and doesn't need | Example: src=hp_categories
+"src" //use for tracking (link product from home page only) and doesn't need | Example: src=hp_categories
 
-"from" //use for tracking (link item from search result page / home page) and doesn't need | Example: from=hp_officialstore
+"from" //use for tracking (link product from search result page / home page) and doesn't need | Example: from=hp_officialstore
 
-"scm" //doesn't need (link item from home page/some in search result page)
+"scm" //doesn't need (link product from home page/some in search result page)
 
-"pa" //use for tracking (link of another item from item info page) and doesn't need | Example: pa=sponsored_bottom
+"pa" //use for tracking (link of another product from product info page) and doesn't need | Example: pa=sponsored_bottom
 
-"pid_pvid" // (link of another item from item info page/link item from home page) and doesn't need
+"pid_pvid" // (link of another product from product info page/link product from home page) and doesn't need
 
-"cid" // doesn't need (link of another item from item info page)
+"cid" // doesn't need (link of another product from product info page)
 
-"member_id" // doesn't need (link of another item from item info page)
+"member_id" // doesn't need (link of another product from product info page)
 
-"pdp_item" // doesn't need (link of another item from item info page)
+"pdp_product" // doesn't need (link of another product from product info page)
 
-"did" // doesn't need (link of another item from item info page)
+"did" // doesn't need (link of another product from product info page)
 
-"ncid" // doesn't need (link of another item from item info page)
+"ncid" // doesn't need (link of another product from product info page)
 
-"adgroup_id" // doesn't need (link of another item from item info page)
+"adgroup_id" // doesn't need (link of another product from product info page)
 
-// break suggest similar product "item_id" // doesn't need (link of seller from home page)
+// "product_id" break suggest similar product (link of seller from home page)
 
 "up_id" // doesn't need (link of seller from home page)
 
-"search" // use for tracking, doesn't need (link of seller from cart page/home page/popup when add item to cart) Example: search=addtocart, search=0
+"search" // use for tracking, doesn't need (link of similar product from cart page/home page/popup when add product to cart) Example: search=addtocart, search=0
 
-"pvtime" // may be time that generate tracking link? (link of another item from item info page) and doesn't need
+"pvtime" // may be time that generate tracking link (all of them is has same value) ? (link of another product from product info page) and doesn't need
+
+// "q" use for search
 
 "pantip.com" site //added
 
