@@ -6,44 +6,46 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 - rules.hash: https://raw.githubusercontent.com/Kristol-Ice/ClearURLs-custom-rule/main/rules.hash
 
 ### Additional rules
-"pp" ,
-"eav",
-"sfnsn",
-"idorvanity",
-"wtsid",
-"rdc",
-"rdr",
-"paipv",
-"_nc_x",
-"_rdr",
-"mibextid"
+"pp" , //added
+"eav", //added
+"sfnsn", //added
+"idorvanity", //added
+"wtsid", //added
+"rdc", //added
+"rdr", //added
+"paipv", //added
+"_nc_x", //added
+"_rdr", //added
+"mibextid" //added
 "urlPattern": "^https?://(?:[a-z0-9-]+\\.)*?nikkei\\.co(?:m|\\.jp)",
 "urlPattern": "^https?://(?:[a-z0-9-]+\\.)*?kahoot\\.it",
-"shopee" site
-"lazada" site
-"clickTrackInfo",
-"up_id",
-"abid",
-"pvid",
-"ad_src",
-"spm",
-"src",
-"from",
-"scm",
-"pa",
-"pid_pvid",
-"cid",
-"member_id",
-"pdp_item",
-"did",
-"ncid",
-"adgroup_id",
-"pvtime"
-"pantip.com" site
-"pixiv.net" site
-"redditmail.com" site
-"invol.co" site
-"addons.mozilla.org" site
+"shopee" site //added
+"lazada" site //added
+"clickTrackInfo", //as the name says use for tracking 100%
+"up_id", // doesn't need (link of seller from home page)
+"abid", // doesn't need (link of seller from home page)
+"pvid", // doesn't need (link of another item from item info page/link item from home page)
+"ad_src", // as the name says use for tracking 100% (link of another item from item info page) and doesn't need
+"spm", //maybe use for tracking (link from home,seach, item info page to some campaign / search url) and doesn't need
+"src", //use for tracking (link item from home page only) and doesn't need | Example: src=hp_categories
+"from", //use for tracking (link item from search result page / home page) and doesn't need | Example: from=hp_officialstore
+"scm", //doesn't need (link item from home page/some in search result page) and
+"pa", //use for tracking (link of another item from item info page) and doesn't need | Example: pa=sponsored_bottom
+"pid_pvid", // (link of another item from item info page/link item from home page) and doesn't need
+"cid", // doesn't need (link of another item from item info page)
+"member_id", // doesn't need (link of another item from item info page)
+"pdp_item", // doesn't need (link of another item from item info page)
+"did", // doesn't need (link of another item from item info page)
+"ncid", // doesn't need (link of another item from item info page)
+"adgroup_id", // doesn't need (link of another item from item info page)
+"item_id", // doesn't need (link of seller from home page)
+"up_id", // doesn't need (link of seller from home page)
+"pvtime" // may be time that generate tracking link? (link of another item from item info page) and doesn't need
+"pantip.com" site //added
+"pixiv.net" site //added
+"redditmail.com" site //added
+"invol.co" site //added
+"addons.mozilla.org" site //added
 
 ## ClearURLs breaks Google OAuth/3rd party apps login?
 1. disable this <img src="https://github.com/Kristol-Ice/ClearURLs-custom-rules/assets/134151822/9f9a822b-ae7d-4702-9f5e-a231caf65ca8" height="50x">
