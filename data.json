@@ -395,7 +395,7 @@
                 "feature",
                 "gclid",
                 "kw" ,
-                "pp" , 
+                "pp" ,
                 "si"
             ],
             "referralMarketing": [],
@@ -2992,7 +2992,7 @@
             "redirections": [],
             "forceRedirection": false
         },
-        "shopee": { 
+        "shopee": {
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?shopee\\.(com|co\\.th)",
             "completeProvider": false,
             "rules": [
@@ -3006,28 +3006,28 @@
             "redirections": [],
             "forceRedirection": false
         },
-        "lazada": { 
+        "lazada": {
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?lazada\\.(com|co\\.th|co\\.id|com\\.my|com\\.ph|sg|vn)",
             "completeProvider": false,
             "rules": [
-                "clickTrackInfo", //as the name says
-                "up_id", // (link of seller from home page) and doesn't need
-                "abid", // (link of seller from home page) and doesn't need
-                "pvid", // (link of another item from item info page/link item from home page) and doesn't need
-                "ad_src", // use for tracking (link of another item from item info page) and doesn't need
-                "spm", //use for tracking (link from home,seach, item info page to some campaign / search url) and doesn't need
-                "src", //use for tracking (link item from home page only) and doesn't need
-                "from", //use for tracking (link item from search result page / home page) and doesn't need | Example: hp_officialstore
-                "scm", //use for tracking (link item from home page/some in search result page) and doesn't need
-                "pa", //use for tracking (link of another item from item info page) and doesn't need | Example: pa=sponsored_bottom
-                "pid_pvid", // (link of another item from item info page/link item from home page) and doesn't need
-                "cid", // doesn't need (link of another item from item info page)
-                "member_id", // doesn't need (link of another item from item info page)
-                "pdp_item", // doesn't need (link of another item from item info page)
-                "did", // doesn't need (link of another item from item info page)
-                "ncid", // doesn't need (link of another item from item info page)
-                "adgroup_id", // doesn't need (link of another item from item info page)
-                "pvtime" // may be time that generate tracking link? (link of another item from item info page) and doesn't need
+                "clickTrackInfo",
+                "up_id",
+                "abid",
+                "pvid",
+                "ad_src",
+                "spm",
+                "src",
+                "from",
+                "scm",
+                "pa",
+                "pid_pvid",
+                "cid",
+                "member_id",
+                "pdp_item",
+                "did",
+                "ncid",
+                "adgroup_id",
+                "pvtime"
             ],
             "referralMarketing": [],
             "rawRules": [],
@@ -3035,7 +3035,7 @@
             "redirections": [],
             "forceRedirection": false
         },
-        "pantip.com": { 
+        "pantip.com": {
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pantip\\.com",
             "completeProvider": false,
             "rules": [],
@@ -3047,7 +3047,7 @@
             "redirections": [],
             "forceRedirection": false
         },
-        "pixiv.net": { 
+        "pixiv.net": {
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pixiv\\.net",
             "completeProvider": false,
             "rules": [],
@@ -3059,7 +3059,7 @@
             ],
             "forceRedirection": false
         },
-        "redditmail.com": { 
+        "redditmail.com": {
             "urlPattern": "^https?:\\/\\/click\\.redditmail\\.com",
             "completeProvider": false,
             "rules": [],
@@ -3072,7 +3072,7 @@
             ],
             "forceRedirection": false
         },
-        "invol.co": { 
+        "invol.co": {
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?invol\\.co",
             "completeProvider": false,
             "rules": [],
@@ -3084,7 +3084,7 @@
             ],
             "forceRedirection": false
         },
-        "addons.mozilla.org": { 
+        "addons.mozilla.org": {
             "urlPattern": "^https?:\\/\\/prod\\.outgoing\\.prod\\.webservices\\.mozgcp\\.net",
             "completeProvider": false,
             "rules": [],

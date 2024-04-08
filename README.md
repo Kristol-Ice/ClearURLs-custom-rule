@@ -6,24 +6,44 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 - rules.hash: https://raw.githubusercontent.com/Kristol-Ice/ClearURLs-custom-rule/main/rules.hash
 
 ### Additional rules
-`"pp" ,`
-`"eav"`
-`"sfnsn"`
-`"idorvanity"`
-`"wtsid"`
-`"rdc"`
-`"rdr"`
-`"paipv"`
-`"_nc_x"`
-`"_rdr"`
-`"mibextid"`
-`"shopee" site`
-`"lazada" site`
-`"pantip.com" site`
-`"pixiv.net" site`
-`"redditmail.com" site`
-`"invol.co" site`
-`"addons.mozilla.org" site`
+"pp" ,
+"eav",
+"sfnsn",
+"idorvanity",
+"wtsid",
+"rdc",
+"rdr",
+"paipv",
+"_nc_x",
+"_rdr",
+"mibextid"
+"urlPattern": "^https?://(?:[a-z0-9-]+\\.)*?nikkei\\.co(?:m|\\.jp)",
+"urlPattern": "^https?://(?:[a-z0-9-]+\\.)*?kahoot\\.it",
+"shopee" site
+"lazada" site
+"clickTrackInfo",
+"up_id",
+"abid",
+"pvid",
+"ad_src",
+"spm",
+"src",
+"from",
+"scm",
+"pa",
+"pid_pvid",
+"cid",
+"member_id",
+"pdp_item",
+"did",
+"ncid",
+"adgroup_id",
+"pvtime"
+"pantip.com" site
+"pixiv.net" site
+"redditmail.com" site
+"invol.co" site
+"addons.mozilla.org" site
 
 ## ClearURLs breaks Google OAuth/3rd party apps login?
 1. disable this <img src="https://github.com/Kristol-Ice/ClearURLs-custom-rules/assets/134151822/9f9a822b-ae7d-4702-9f5e-a231caf65ca8" height="50x">
