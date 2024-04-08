@@ -40,6 +40,7 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 "adgroup_id", // doesn't need (link of another item from item info page)
 "item_id", // doesn't need (link of seller from home page)
 "up_id", // doesn't need (link of seller from home page)
+"search", // use for tracking, doesn't need (link of seller from cart page/home page/popup when add item to cart) Example: search=addtocart, search=0
 "pvtime" // may be time that generate tracking link? (link of another item from item info page) and doesn't need
 "pantip.com" site //added
 "pixiv.net" site //added

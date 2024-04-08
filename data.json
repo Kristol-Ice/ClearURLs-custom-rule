@@ -3029,6 +3029,7 @@
                 "adgroup_id",
                 "item_id",
                 "up_id",
+                "search",
                 "pvtime"
             ],
             "referralMarketing": [],
