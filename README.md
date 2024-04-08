@@ -8,79 +8,75 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 ### Additional rules
 "pp" , //added
 
-"eav", //added
+"eav" //added
 
-"sfnsn", //added
+"sfnsn" //added
 
-"idorvanity", //added
+"idorvanity" //added
 
-"wtsid", //added
+"wtsid" //added
 
-"rdc", //added
+"rdc" //added
 
-"rdr", //added
+"rdr" //added
 
-"paipv", //added
+"paipv" //added
 
-"_nc_x", //added
+"_nc_x" //added
 
-"_rdr", //added
+"_rdr" //added
 
 "mibextid" //added
 
-"urlPattern": "^https?://(?:[a-z0-9-]+\\.)*?nikkei\\.co(?:m|\\.jp)",
-
-"urlPattern": "^https?://(?:[a-z0-9-]+\\.)*?kahoot\\.it",
-
 "shopee" site //added
 
-"publish_id", // doesn't need
+"publish_id" // doesn't need
 
-"sp_atk", // doesn't need
+"sp_atk" // doesn't need
 
 "xptdk" // doesn't need
 
 "lazada" site //added
 
-"clickTrackInfo", //as the name says use for tracking 100%
+"clickTrackInfo" //as the name says use for tracking 100%
 
-"up_id", // doesn't need (link of seller from home page)
+"up_id" // doesn't need (link of seller from home page)
 
-"abid", // doesn't need (link of seller from home page)
+"abid" // doesn't need (link of seller from home page)
 
-"pvid", // doesn't need (link of another item from item info page/link item from home page)
+"pvid" // doesn't need (link of another item from item info page/link item from home page)
 
-"ad_src", // as the name says use for tracking 100% (link of another item from item info page) and doesn't need
+"ad_src" // as the name says use for tracking 100% (link of another item from item info page) and doesn't need
 
-"spm", //maybe use for tracking (link from home,seach, item info page to some campaign / search url) and doesn't need
+"spm" //maybe use for tracking (link from home,seach, item info page to some campaign / search url) and doesn't need
 
-"src", //use for tracking (link item from home page only) and doesn't need | Example: src=hp_categories
+"src" //use for tracking (link item from home page only) and doesn't need | Example: src=hp_categories
 
-"from", //use for tracking (link item from search result page / home page) and doesn't need | Example: from=hp_officialstore
+"from" //use for tracking (link item from search result page / home page) and doesn't need | Example: from=hp_officialstore
 
-"scm", //doesn't need (link item from home page/some in search result page)
+"scm" //doesn't need (link item from home page/some in search result page)
 
-"pa", //use for tracking (link of another item from item info page) and doesn't need | Example: pa=sponsored_bottom
+"pa" //use for tracking (link of another item from item info page) and doesn't need | Example: pa=sponsored_bottom
 
-"pid_pvid", // (link of another item from item info page/link item from home page) and doesn't need
+"pid_pvid" // (link of another item from item info page/link item from home page) and doesn't need
 
-"cid", // doesn't need (link of another item from item info page)
+"cid" // doesn't need (link of another item from item info page)
 
-"member_id", // doesn't need (link of another item from item info page)
+"member_id" // doesn't need (link of another item from item info page)
 
-"pdp_item", // doesn't need (link of another item from item info page)
+"pdp_item" // doesn't need (link of another item from item info page)
 
-"did", // doesn't need (link of another item from item info page)
+"did" // doesn't need (link of another item from item info page)
 
-"ncid", // doesn't need (link of another item from item info page)
+"ncid" // doesn't need (link of another item from item info page)
 
-"adgroup_id", // doesn't need (link of another item from item info page)
+"adgroup_id" // doesn't need (link of another item from item info page)
 
-"item_id", // doesn't need (link of seller from home page)
+"item_id" // doesn't need (link of seller from home page)
 
-"up_id", // doesn't need (link of seller from home page)
+"up_id" // doesn't need (link of seller from home page)
 
-"search", // use for tracking, doesn't need (link of seller from cart page/home page/popup when add item to cart) Example: search=addtocart, search=0
+"search" // use for tracking, doesn't need (link of seller from cart page/home page/popup when add item to cart) Example: search=addtocart, search=0
 
 "pvtime" // may be time that generate tracking link? (link of another item from item info page) and doesn't need
 
