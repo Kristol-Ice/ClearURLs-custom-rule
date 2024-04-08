@@ -20,6 +20,9 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 "urlPattern": "^https?://(?:[a-z0-9-]+\\.)*?nikkei\\.co(?:m|\\.jp)",
 "urlPattern": "^https?://(?:[a-z0-9-]+\\.)*?kahoot\\.it",
 "shopee" site //added
+"publish_id", // doesn't need
+"sp_atk", // doesn't need
+"xptdk" // doesn't need
 "lazada" site //added
 "clickTrackInfo", //as the name says use for tracking 100%
 "up_id", // doesn't need (link of seller from home page)
@@ -43,6 +46,7 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 "search", // use for tracking, doesn't need (link of seller from cart page/home page/popup when add item to cart) Example: search=addtocart, search=0
 "pvtime" // may be time that generate tracking link? (link of another item from item info page) and doesn't need
 "pantip.com" site //added
+"#lead.*" //as the name says use for tracking 100%
 "pixiv.net" site //added
 "redditmail.com" site //added
 "invol.co" site //added
