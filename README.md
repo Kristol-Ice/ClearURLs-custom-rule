@@ -38,8 +38,6 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 
 "lazada" site //added
 
-"clickTrackInfo" //as the name says use for tracking 100%
-
 "up_id" // doesn't need (link of seller from home page)
 
 "abid" // doesn't need (link of seller from home page)

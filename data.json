@@ -3010,7 +3010,6 @@
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?lazada\\.(com|co\\.th|co\\.id|com\\.my|com\\.ph|sg|vn)",
             "completeProvider": false,
             "rules": [
-                "clickTrackInfo",
                 "up_id",
                 "abid",
                 "pvid",
