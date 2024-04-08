@@ -3020,7 +3020,6 @@
                 "pvid",
                 "params",
                 "src",
-                "q",
                 "scm"
             ],
             "referralMarketing": [],
@@ -3037,20 +3036,6 @@
                 "#lead.*"
             ],
             "referralMarketing": [],
-            "exceptions": [],
-            "redirections": [],
-            "forceRedirection": false
-        },
-        "discordapp.net": { 
-            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?discordapp\\.net",
-            "completeProvider": false,
-            "rules": [
-                "ex",
-                "is",
-                "hm"
-            ],
-            "referralMarketing": [],
-            "rawRules": [],
             "exceptions": [],
             "redirections": [],
             "forceRedirection": false

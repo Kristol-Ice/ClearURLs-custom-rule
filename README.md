@@ -20,7 +20,6 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 `"shopee" site`
 `"lazada" site`
 `"pantip.com" site`
-`"discordapp.net" site`
 `"pixiv.net" site`
 `"redditmail.com" site`
 `"invol.co" site`
