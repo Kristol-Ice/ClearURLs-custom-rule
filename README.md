@@ -1,5 +1,5 @@
 # ClearURLs-custom-rule
-ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additional rules for MYSELF. There might be some mistakes or rules that break functionalities of the website. So that why I didn't not pull request to the official.
+ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additional rules for MYSELF. There might be some mistakes or rules that break functionalities of the website. So that why I don't not pull request to the official yet.
 
 ## ClearURLs-custom-rule url
 - data.json: https://raw.githubusercontent.com/Kristol-Ice/ClearURLs-custom-rule/main/data.json
