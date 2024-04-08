@@ -3011,7 +3011,6 @@
             "completeProvider": false,
             "rules": [
                 "clickTrackInfo",
-                "up_id",
                 "abid",
                 "pvid",
                 "ad_src",
@@ -3022,8 +3021,7 @@
                 "pa",
                 "pid_pvid",
                 "did",
-                "up_id",
-                "pvtime"
+                "up_id"
             ],
             "referralMarketing": [],
             "rawRules": [],

@@ -30,57 +30,57 @@ ClearURLs-custom-rule bases on the official ClearURLs's rule and add some additi
 
 "shopee" site //added
 
-"publish_id" // doesn't need
+"publish_id" // not break
 
-"sp_atk" // doesn't need
+"sp_atk" // not break
 
-"xptdk" // doesn't need
+"xptdk" // not break
 
 "lazada" site //added
 
 "clickTrackInfo" // as the name says use for tracking 100%
 
-"up_id" // doesn't need (link of seller from home page)
+//"up_id" not sure, pattern not look like tracking para, not break (link of seller from home page) | Example: up_id=4946721348
 
-"abid" // doesn't need (link of seller from home page) Example: abid=0,132055555,16681078,12914538,12342418,21386346,21345230,13633424,21393424,21486240,362428,20942286,12903428,12574342,21384284,255555432,8460342,213755555,213342842,12559238,12094245,21388408,21381376,21403532,12656138,12449264,21388438,21393042,21390608,21410078,12189920,21386776,12192856,21432454,21424528,10435570,12950434,18243582,240363,12616746,21382700,19944028,12729388,21397544,13215270,213428562,14620714,16872342,1279551563,123,130554248
+"abid" // not break (link of seller from home page) Example: abid=0,132055555,16681078,12914538,12342418,21386346,21345230,13633424,21393424,21486240,362428,20942286,12903428,12574342,21384284,255555432,8460342,213755555,213342842,12559238,12094245,21388408,21381376,21403532,12656138,12449264,21388438,21393042,21390608,21410078,12189920,21386776,12192856,21432454,21424528,10435570,12950434,18243582,240363,12616746,21382700,19944028,12729388,21397544,13215270,213428562,14620714,16872342,1279551563,123,130554248
 
-"pvid" // doesn't need (link of another product from product info page/link product from home page) | Example: pvid=d13sf242-8743-441f-b068-0a5edads1c21
+"pvid" // not break (link of another product from product info page/link product from home page) | Example: pvid=d13sf242-8743-441f-b068-0a5edads1c21
 
-"ad_src" // as the name says use for tracking 100% (link of another product from product info page) and doesn't need | Example: ad_src=5741_3727:10217,1700_930:0.94342136434248
+"ad_src" // as the name says use for tracking 100% (link of another product from product info page) and not break | Example: ad_src=5741_3727:10217,1700_930:0.94342136434248
 
-"spm" //maybe use for tracking (link from home,seach, product info page to some campaign / search url) and doesn't need | Example: a3o1k.home.header.1.1534535fgfsFgc
+"spm" //maybe use for tracking (link from home,seach, product info page to some campaign / search url) and not break | Example: spm=a3o1k.home.header.1.1534535fgfsFgc
 
-"src" //use for tracking (link product from home page only) and doesn't need | Example: src=hp_categories
+"src" //use for tracking (link product from home page only) and not break | Example: src=hp_categories
 
-"from" //use for tracking (link product from search result page / home page) and doesn't need | Example: from=hp_officialstore
+"from" //use for tracking (link product from search result page / home page) and not break | Example: from=hp_officialstore
 
-"scm" //use for tracking, doesn't need (link product from home page/some in search result page/link to other sites) | Example: https://bit.ly/lazada-ios-app?scm=1003.4.icms-zebra-1349781-1645724.OTHER_1645723498_274568
+"scm" //use for tracking, not break (link product from home page/some in search result page/link to other sites) | Example: https://bit.ly/lazada-ios-app?scm=1003.4.icms-zebra-1349781-1645724.OTHER_1645723498_274568
 
-"pa" //use for tracking (link of another product from product info page) and doesn't need | Example: pa=sponsored_bottom
+"pa" //use for tracking (link of another product from product info page) and not break | Example: pa=sponsored_bottom
 
-"pid_pvid" // (link of another product from product info page/link product from home page) and doesn't need) | Example: pid_pvid=gpoks093oIHJf0984ojF0i4kjpgd1
+"pid_pvid" // (link of another product from product info page/link product from home page) and not break) | Example: pid_pvid=gpoks093oIHJf0984ojF0i4kjpgd1
 
-// "cid" pattern not look like tracking, doesn't need (link of another product from product info page)
+// "cid" pattern not look like tracking para, not break (link of another product from product info page)
 
-// "member_id" pattern look like acutal member id of seller, doesn't need (link of another product from product info page)
+// "member_id" pattern look like acutal member id of seller, not break (link of another product from product info page)
 
-// "pdp_item" pattern not look like tracking, doesn't need (link of another product from product info page)
+// "pdp_item" pattern not look like tracking para, not break (link of another product from product info page)
 
-"did" // doesn't need (link of another product from product info page) | Example: did=d13sg232-7243-351f-b068-gkfhops94as4
+"did" // not break (link of another product from product info page) | Example: did=d13sg232-7243-351f-b068-gkfhops94as4
 
-//"ncid" pattern not look like tracking, doesn't need (link of another product from product info page)
+//"ncid" pattern not look like tracking para, not break (link of another product from product info page)
 
-// "adgroup_id" not sure, doesn't need (link of another product from product info page)
+// "adgroup_id" not sure, not break (link of another product from product info page)
 
-// "product_id" break suggest similar product (link of seller from home page)
+// "product_id" 100% break suggest similar product (link of seller from home page)
 
-"up_id" // doesn't need (link of seller from home page)
+"up_id" // not break (link of seller from home page)
 
-// "search"  pattern not look like tracking, doesn't need (link of similar product from cart page/home page/popup when add product to cart) Example: search=addtocart, search=0, search=cart
+// "search"  pattern not look like tracking para, not break (link of similar product from cart page/home page/popup when add product to cart) Example: search=addtocart, search=0, search=cart
 
-"pvtime" // may be time that generate tracking link (all of them is has same value) ? (link of another product from product info page) and doesn't need
+//"pvtime" not sure, may be time that generate tracking link? (all of them has the same value) (link of another product from product info page) and not break
 
-// "q" use for search
+// "q" use for search, 100% breaks search function
 
 "pantip.com" site //added
 
